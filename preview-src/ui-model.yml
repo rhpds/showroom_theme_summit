@@ -53,6 +53,12 @@ site:
     latestVersion: *latest_version_123
 page:
   url: *home_url
+  user: 'User 1'
+  links:
+  - url: https://redhat.com
+    text: Red Hat
+  - url: https://www.redhat.com/en/summit
+    text: Summit
   home: true
   title: Brand&#8217;s Hardware &amp; Software Requirements
   component: *component
@@ -131,3 +137,4 @@ page:
       - content: Some Code
         url: '/xyz/5.2/index.html#some-code'
         urlType: internal
+
