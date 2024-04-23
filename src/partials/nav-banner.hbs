@@ -1,0 +1,10 @@
+{{#if page.attributes.ssh-command}}
+<div class="nav-banner">
+{{#with page.attributes.ssh-command}}
+  <div><div class="banner-item-title">Connect:</div> <span class="value">{{this}}</span></div>
+{{/with}}
+{{#with page.attributes.ssh-password}}
+  <div><div class="banner-item-title">Password:</div> <span class="value">{{this}}</span></div>
+{{/with}}
+</div>
+{{/if}}
