@@ -18,7 +18,7 @@ footer.footer {
 
 .footer .poweredBy {
   display: flex;
-  text-decoration: none!important;
+  text-decoration: none !important;
   flex-direction: row;
   width: 100%;
   align-items: center;

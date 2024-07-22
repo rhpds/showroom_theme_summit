@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   }
 
-  function preserveQueryString (desiredQueryString) {
+  function preserveQueryString () {
     //Handle links
     var allQueryParamLinks = document.querySelectorAll('.query-params-link, .home-link, .params-link, .nav-link')
     if (allQueryParamLinks) {

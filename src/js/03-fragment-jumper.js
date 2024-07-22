@@ -1,4 +1,4 @@
-;(function () {
+(function () {
   'use strict'
 
   var article = document.querySelector('article.doc')
@@ -24,7 +24,7 @@
     window.scrollTo(0, computePosition(this, 0) - toolbar.getBoundingClientRect().bottom)
   }
 
-  window.addEventListener('load', function jumpOnLoad (e) {
+  window.addEventListener('load', function jumpOnLoad () {
     var fragment, target
     if ((fragment = decodeFragment(window.location.hash)) && (target = document.getElementById(fragment))) {
       jumpToAnchor.bind(target)()

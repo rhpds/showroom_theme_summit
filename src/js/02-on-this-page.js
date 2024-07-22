@@ -1,4 +1,4 @@
-;(function () {
+(function () {
   'use strict'
 
   var sidebar = document.querySelector('aside.toc.sidebar')

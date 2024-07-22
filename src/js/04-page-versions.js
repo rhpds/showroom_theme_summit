@@ -1,4 +1,4 @@
-;(function () {
+(function () {
   'use strict'
 
   var toggle = document.querySelector('.page-versions .version-menu-toggle')

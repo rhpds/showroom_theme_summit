@@ -11,10 +11,38 @@ If you want to simply use the theme for your Antora-generated site, add the foll
 ----
 ui:
   bundle:
-    url: https://github.com/rhpds/showroom_theme_summit/releases/download/v0.0.1/ui-bundle.zip
+    url: https://github.com/rhpds/showroom_theme_summit/releases/download/v0.0.2/ui-bundle.zip
 ----
 
 == Showing information on the sidebar
 
 The sidebar will show a simple box with the SSH command and the password for the bastion if specific asciidoc attributes
 are set: *page-ssh-command*, *page-ssh-password*
+
+== Add Additional Links
+
+You can add links to external content in the convenient "Links" drop-down on the upper-right of the UI.
+
+../content/antora.yml
+[source,yaml]
+----
+asciidoc:
+  attributes:
+    page-links:
+    - url: https://redhat.com
+      text: Red Hat
+    - url: https://www.redhat.com/en/summit
+      text: Summit
+----
+
+== Add a User menu entry
+
+Similar to the external links, you can have a new menu entry with the name of the user
+
+../content/antora.yml
+[source,yaml]
+----
+asciidoc:
+  attributes:
+    user: 'User X'
+----
