@@ -1,3 +1,7 @@
+# DEPRECATED
+Please use https://github.com/rhpds/showroom_theme_summit
+
+
 = An Antora theme for Red Hat Summit
 
 While the theme is ready to be used with Antora, the intent is that you'll fork it and customize it for your own needs.
