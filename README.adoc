@@ -1,6 +1,6 @@
 # DEPRECATED
 
-Please use https://github.com/rhpds/showroom_theme_summit
+Please use https://github.com/rhpds/rhdp_showroom_theme
 
 
 = An Antora theme for Red Hat Summit
